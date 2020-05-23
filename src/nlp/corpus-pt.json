@@ -1,0 +1,37 @@
+{
+    "name": "Name of the corpus",
+    "locale": "pt-PT",
+    "data": [
+      {
+        "intent": "server.url",
+        "utterances": [
+          "qual é a url do blog",
+          "qual e a url do blog",
+          "envia-me url do blog por favor",
+          "da-me a url do blog por favor",
+          "diga-me a url por favor",
+          "quero saber a url do blog"
+        ],
+        "answers": [
+          "Aqui está a url do blog #url#",
+          "Esta é a url do blog #url#",
+          "Aqui está o link do nosso blog #url#"
+        ]
+      },
+      {
+        "intent": "server.twitter",
+        "utterances": [
+          "qual é a url do twitter",
+          "qual e a url do twitter",
+          "envia-me url do twitter por favor",
+          "da-me a url do twitter por favor",
+          "diga-me a twitter por favor",
+          "quero saber o twitter"
+        ],
+        "answers": [
+          "Aqui está o nosso twitter #twitter#",
+          "Esta é a url do twitter #url#"
+        ]
+      }
+    ]
+  }
